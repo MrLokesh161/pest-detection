@@ -11,7 +11,7 @@ model = load_model('plant_disease_model.h5')  # Load your trained model file
 img_size = (224, 224)
 
 # Define the path to your test dataset directory
-test_dataset_directory = "D:/Titan/Dataset/TrainNDtest/test"  # Replace with your test dataset path
+test_dataset_directory = "/test"  # Replace with your test dataset path
 
 # Create a function to predict the class of an image
 def predict_class(image_path):
