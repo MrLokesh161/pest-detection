@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import os 
 import numpy as np
 
-model = load_model('plant_disease_model.h5')
+model = load_model('plant_disease.h5')
 
 img_size = (224, 224)
 
